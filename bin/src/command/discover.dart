@@ -17,7 +17,7 @@ import 'dart:io';
 
 import 'package:args/command_runner.dart';
 import 'package:logging/logging.dart';
-import 'package:miio_new/miio.dart';
+import 'package:miio_new/miio_new.dart';
 import 'package:miio_new/src/utils.dart';
 
 class DiscoverCommand extends Command<void> {

@@ -1,3 +1,6 @@
+## 1.0.2
+- Continue fixing unfinished renaming
+
 ## 1.0.1
 - Fix typo
 
