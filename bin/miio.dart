@@ -14,7 +14,7 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import 'package:logging/logging.dart';
-import 'package:miio/miio.dart';
+import 'package:miio_new/miio.dart';
 
 import 'src/command_runner.dart';
 import 'src/utils.dart';

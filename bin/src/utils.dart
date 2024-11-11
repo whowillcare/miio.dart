@@ -34,8 +34,8 @@ void prettyLogPrinter(LogRecord record) {
         .log(l.LogEvent(
           _levelMap[record.level]!,
           record.message,
-          record.error,
-          record.stackTrace,
+          error: record.error,
+          stackTrace: record.stackTrace,
         ))
         .join('\n'),
   );

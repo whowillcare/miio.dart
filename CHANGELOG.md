@@ -1,3 +1,7 @@
+## 1.0.0
+
+- Upgrade to support Dart 3.+
+
 ## 0.8.1
 
 - Support actions.
