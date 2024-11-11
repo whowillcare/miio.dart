@@ -5,6 +5,8 @@
     alt="Pub Package" />
 </a>
 
+** This is a replica from original dartlang miio package, just for the sake of making it compliant with dart 3.x. **
+
 Dart implementation for MiIO LAN protocol.
 
 The protocol an encrypted, binary protocol based on UDP (port 54321), which is used to configure & control smart home devices made by Xiaomi Ecosystem.
