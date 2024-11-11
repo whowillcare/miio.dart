@@ -52,7 +52,8 @@ class MiIO {
     InternetAddress address, {
     Duration timeout = const Duration(seconds: 3),
   }) async* {
-    final socket = await RawDatagramSocket.bind(InternetAddress.anyIPv4, 0);
+    final socket = await RawDatagramSocket.bind(InternetAddress.anyIPv4, 12345);
+    socket.broadcastEnabled = true;
     Timer(timeout, socket.close);
 
     socket.send(MiIOPacket.hello.binary, address, 54321);

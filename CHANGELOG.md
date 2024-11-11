@@ -1,3 +1,9 @@
+## 1.0.4
+- when in discovery mode,   socket.broadcastEnabled = true is used, and bind port to something greater than 1024 for non-root user
+
+## 1.0.3
+- Fix typo
+ 
 ## 1.0.2
 - Continue fixing unfinished renaming
 
