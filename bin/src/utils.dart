@@ -18,14 +18,14 @@ import 'package:logging/logging.dart';
 
 final _prettyPrinter = l.PrettyPrinter(methodCount: 0, printTime: true);
 final _levelMap = <Level, l.Level>{
-  Level.SHOUT: l.Level.wtf,
+  Level.SHOUT: l.Level.fatal,
   Level.SEVERE: l.Level.error,
   Level.WARNING: l.Level.warning,
   Level.INFO: l.Level.info,
   Level.CONFIG: l.Level.info,
   Level.FINE: l.Level.debug,
-  Level.FINER: l.Level.verbose,
-  Level.FINEST: l.Level.verbose,
+  Level.FINER: l.Level.trace,
+  Level.FINEST: l.Level.trace,
 };
 
 void prettyLogPrinter(LogRecord record) {
